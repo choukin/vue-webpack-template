@@ -1,0 +1,19 @@
+{
+  "plugins": ["node_modules/jsdoc-vue"],
+  "source": {
+    "includePattern": "\\.(vue|js)$"
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": true,
+    "useLongnameInNav": false,
+    "showInheritedInNav": true
+  },
+  "opts": {
+    "destination": "./docs/",
+    "encoding": "utf8",
+    "private": true,
+    "recurse": true,
+    "template": "./node_modules/minami"
+  }
+}
